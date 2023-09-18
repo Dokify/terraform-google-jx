@@ -511,3 +511,9 @@ variable "content" {
   type        = string
   default     = ""
 }
+
+variable "node_pool_primary_name" {
+    description = "Node Pool Name"
+    type        = string
+    default = "node-pool-primary"
+}

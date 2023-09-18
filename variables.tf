@@ -351,3 +351,9 @@ variable "kuberhealthy" {
   type        = bool
   default     = true
 }
+
+variable "node_pool_primary_name" {
+    description = "Node Pool Name"
+    type        = string
+    default = "node-pool-primary"
+}
